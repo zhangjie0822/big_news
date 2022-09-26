@@ -1,0 +1,10 @@
+$(function(){
+    $('#go2Reg').on('click',function(){
+        $('.login-box').hide()
+        $('.reg-box').show()
+    })
+    $('#go2Login').on('click',function(){
+        $('.reg-box').hide()
+        $('.login-box').show()
+    })
+})
